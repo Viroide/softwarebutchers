@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://xenodochial-kowalevski-d0a201.netlify.com/"
 title: "Alternative event"
 canonifyurls: true
 theme: "hugo-conference"

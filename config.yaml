@@ -1,0 +1,87 @@
+baseurl: "https://example.org/"
+title: "Alternative event"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Alternative event"
+  Description: "Evento alternativo a SCPNA18"
+  Date: "sábado, 9 junio de 2018"
+  Price: "30€ aprox." # If your event is free, just comment this line
+  Venue: "Pamplona"
+  Address: "Calle Julián Gayarre 3, bj"
+  City:  "Pamplona"
+  State: "Navarra"
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "AIzaSyCeYht6T3hhvwacY3J8a8i0XniXg9AhPds"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - location
+    - speakers
+    - schedule
+    #- sponsors
+    #- partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "Resumen"
+    location: "Donde"
+    speakers: "Ponentes"
+    schedule: "Agenda"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  #CallToAction:
+  #  text: "Register now!"
+  # link: "http://register.example.com"
+
+  # The entire schedule
+  Schedule:
+    - name: "Check-in"
+      time: "10h00"
+
+    - name: "Bienvenida"
+      time: "10h15"
+
+    - name: "secreto"
+      photo: "/images/speaker.jpg"
+      bio: ""
+      company: "---"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Por confirmar"
+        description: ""
+        time: "10h30"
+
+    - name: "Open space"
+      time: "12h00"
+
+    - name: "Comilona"
+      time: "14h00"
+
+    - name: "secreto"
+      photo: "/images/norris.jpg"
+      bio: ""
+      company: "---"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: "Por confirmar"
+        description: ""
+        time: "17h00"
+
+    - name: "Open space"
+      time: "18h30"

@@ -1,0 +1,3 @@
+[submodule "themes/hugo-conference"]
+	path = themes/hugo-conference
+	url = https://github.com/jweslley/hugo-conference

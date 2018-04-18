@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 80px 0 0px;
   text-align: center;
 }
 .logo-name {
@@ -342,7 +342,7 @@ nav {
   letter-spacing: -0.04em;
 }
 .tagline {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   font-size: 2em;
   letter-spacing: -0.02em;
 }
@@ -721,8 +721,9 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background: url('../images/pamplona.jpg') no-repeat center center fixed;
+  background: url('../images/logo.jpg') no-repeat center center fixed;
   background-size: cover;
+  height: 400px;
 }
 .logo-link,
 .tagline,

@@ -1,5 +1,5 @@
 baseurl: "https://xenodochial-kowalevski-d0a201.netlify.com/"
-title: "Alternative event"
+title: "Software butchers"
 canonifyurls: true
 theme: "hugo-conference"
 
@@ -7,7 +7,7 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Alternative event"
+  Name: "Software butchers"
   Description: "Evento alternativo a SCPNA18"
   Date: "sábado, 9 junio de 2018"
   Price: "30€ aprox." # If your event is free, just comment this line
@@ -23,7 +23,7 @@ params:
   Sections:
     - about
     - location
-    - speakers
+    # - speakers
     - schedule
     #- sponsors
     #- partners
@@ -50,38 +50,25 @@ params:
     - name: "Check-in"
       time: "10h00"
 
-    - name: "Bienvenida"
+    - name: "Bienvenida y propuestas de las charlas"
       time: "10h15"
 
-    - name: "secreto"
-      photo: "/images/speaker.jpg"
-      bio: ""
-      company: "---"
-      link:
-        href: ""
-        text: ""
-      presentation:
-        title: "Por confirmar"
-        description: ""
-        time: "10h30"
+    - name: "Open space"
+      time: "11h00"
+      description: "2 tracks"
 
     - name: "Open space"
-      time: "12h00"
+      time: "12h30"
+      description: "2 tracks"
 
     - name: "Comilona"
       time: "14h00"
+      description: ""
 
-    - name: "secreto"
-      photo: "/images/norris.jpg"
-      bio: ""
-      company: "---"
-      link:
-        href: ""
-        text: ""
-      presentation:
-        title: "Por confirmar"
-        description: ""
-        time: "17h00"
+    - name: "Open space"
+      time: "17h00"
+      description: "2 tracks"
 
     - name: "Open space"
       time: "18h30"
+      description: "2 tracks"
